@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Page Not Found — Rowan Clyne</title>
+  <meta name="robots" content="noindex, follow" />
+  <meta name="theme-color" content="#202A36" />
+  <link rel="stylesheet" href="fonts/fonts.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%23202A36'/><text y='72' x='50' text-anchor='middle' font-size='58' font-family='serif' fill='white'>R</text></svg>" />
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body { height: 100%; }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #f9fafb;
+      color: #202A36;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    nav {
+      padding: 24px 32px;
+    }
+
+    .btn-back {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 0.8rem;
+      font-weight: 500;
+      color: #6b7280;
+      text-decoration: none;
+      letter-spacing: 0.04em;
+      transition: color 0.2s ease;
+    }
+    .btn-back:hover { color: #202A36; }
+
+    main {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 48px 32px;
+      text-align: center;
+    }
+
+    .content {
+      max-width: 560px;
+      animation: fadeUp 0.75s ease both;
+    }
+
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    .label {
+      font-size: 0.7rem;
+      font-weight: 600;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: #9ca3af;
+      margin-bottom: 16px;
+    }
+
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(3rem, 8vw, 5.5rem);
+      font-weight: 700;
+      color: #202A36;
+      letter-spacing: -0.04em;
+      line-height: 1;
+      margin-bottom: 28px;
+    }
+
+    p {
+      font-size: 1rem;
+      color: #6b7280;
+      line-height: 1.75;
+      margin-bottom: 36px;
+    }
+
+    .email-link {
+      display: inline-block;
+      font-size: 0.875rem;
+      font-weight: 500;
+      color: #202A36;
+      text-decoration: underline;
+      text-underline-offset: 4px;
+      letter-spacing: 0.02em;
+      transition: color 0.2s ease;
+    }
+    .email-link:hover { color: #4b5563; }
+
+    footer {
+      border-top: 1px solid #e5e7eb;
+      padding: 24px 32px;
+      text-align: center;
+    }
+    footer p {
+      font-size: 0.75rem;
+      color: #9ca3af;
+      letter-spacing: 0.04em;
+      margin-bottom: 0;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="index.html" class="btn-back">
+      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="m12 5-7 7 7 7"/></svg>
+      Rowan Clyne
+    </a>
+  </nav>
+
+  <main>
+    <div class="content">
+      <p class="label">404</p>
+      <h1>Lost in the spotlight.</h1>
+      <p>This page doesn't exist — but we do.<br />If you were looking for something specific, just reach out directly.</p>
+      <a href="mailto:hello@rowanclyne.com" class="email-link">hello@rowanclyne.com</a>
+    </div>
+  </main>
+
+  <footer>
+    <p>© Rowan Clyne Publicity</p>
+  </footer>
+</body>
+</html>
